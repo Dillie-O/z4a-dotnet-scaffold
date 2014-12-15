@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>z4a-dotnet-scaffold</id>
+    <version>1.0.0.2</version>
+    <title>Zurb Foundation For Apps Scaffolding</title>
+    <authors>Sean Patterson</authors>
+    <owners>Sean Patterson</owners>
+    <licenseUrl>https://github.com/Dillie-O/z4a-dotnet-scaffold/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Dillie-O/z4a-dotnet-scaffold</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A scaffold for building an application with Zurb for Applications and .Net</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>zurb foundation webapi angularjs</tags>
+  </metadata>
+</package>

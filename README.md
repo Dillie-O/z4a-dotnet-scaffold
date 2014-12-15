@@ -5,6 +5,8 @@ z4a-dotnet-scaffold
 
 ####See [this article](https://dillieodigital.wordpress.com/2014/12/11/soup-to-nuts-using-zurb-foundation-for-apps-in-net/) for full details on how it was built and its structure.
 
+#### NuGet package available [here](https://www.nuget.org/packages/z4a-dotnet-scaffold).
+
 ##Details
 This scaffold provides a .Net solution built with the following components.
 
