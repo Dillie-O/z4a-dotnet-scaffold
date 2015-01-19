@@ -353,6 +353,7 @@
     <Content Include="bower_components\viewport-units-buggyfill\viewport-units-buggyfill.hacks.js" />
     <Content Include="bower_components\viewport-units-buggyfill\viewport-units-buggyfill.js" />
     <Content Include="client\assets\js\app.js" />
+    <Content Include="client\assets\js\controllers.js" />
     <Content Include="client\index.html" />
     <Content Include="client\templates\home.html" />
     <Content Include="client\templates\news.html" />

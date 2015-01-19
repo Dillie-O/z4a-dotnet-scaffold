@@ -1,6 +1,9 @@
-# Foundation for Apps Template
+# Foundation for Apps .Net Scaffold
 
-This is the default template project for Foundation for Apps. It's powered by Node, Gulp, Angular, and libsass. It provides you with a basic template to get started with Angular and Foundation for Apps. If you're already an Angular developer, you may instead want to install the components into your own stack using Bower: `bower install foundation-apps`
+This is the default template project for Foundation for Apps for .Net. It's powered by Node, Gulp, Angular, and libsass. It also runs off the .Net WebAPI architecture for service processing. It provides you with a basic template to get started with Angular and Foundation for Apps.
+
+## Details
+More information about this scaffold can be found through [this blog post](https://dillieodigital.wordpress.com/2014/12/11/soup-to-nuts-using-zurb-foundation-for-apps-in-net/).
 
 ## Requirements
 
@@ -15,36 +18,14 @@ You'll need the following software installed to get started.
 
 ## Get Started
 
-Clone this repository, where `app` is the name of your app.
+Once you've added this NuGet package to an empty solution, you need to rebuild the client side assets by running the following commands from the project root (not solution root):
 
-```bash
-git clone https://github.com/zurb/foundation-apps-template.git app
-```
-
-Change into the directory.
-
-```bash
-cd app
-```
-
-Install the dependencies. Running `npm install` will also automatically run `bower install` after. If you're running Mac OS or Linux, you may need to run `sudo npm install` instead, depending on how your machine is configured. Running `bundle` will install the correct version of Sass for the template.
-
-```bash
-npm install
+```npm install
 bower install
 bundle
-```
+gulp build```
 
-While you're working on your project, run:
+## Configuration Complete
+From here you should be able to build and run the app. Anytime you make changes to your front end, make sure to do so from the client folder and then run `gulp build` again.
 
-```bash
-npm start
-```
-
-This will compile the Sass and assemble your Angular app. **Now go to `localhost:8080` in your browser to see it in action.**
-
-To run the compiling process once, without watching any files:
-
-```bash
-npm start build
-```
+Build your app and enjoy!

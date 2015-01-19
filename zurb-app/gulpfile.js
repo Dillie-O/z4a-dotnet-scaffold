@@ -98,7 +98,7 @@ gulp.task('uglify-angular', function() {
     'bower_components/ui-router/release/angular-ui-router.js',
     'bower_components/foundation-apps/js/vendor/**/*.js',
     'bower_components/foundation-apps/js/angular/**/*.js',
-    'client/assets/js/app.js'
+    'client/assets/js/*.js'
   ];
 
   return gulp.src(libs)
